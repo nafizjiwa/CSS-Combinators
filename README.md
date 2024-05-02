@@ -3,16 +3,15 @@ What they are ? and Examples.
 
 # CSS Combinators
 Combinators explain the relationship between the selectors they surround.<br>
-| Header1 | Header2 | Header3 |
+
+
+First, CSS Selectors are patterns used to select elements.<br>
+    Example: <br>
+    
+| Simple Selectors | Example | Description |
 | :---- | :----: | ----: |
-| R1C1 | R1C2 | R1C3 |
-| R2C1 | R2C2 | R2C3 |
-First, CSS Selectors are patterns used to select elements.
-    Example: 
-    | Simple Selectors | Example | Description |
-    | :---- | :----: | ----: |
-    |  .class  | .intro | Selects all elements with class = "intro" |
-    | element.class | p.intro | Selects all <p> elements with class="intro" |
+|  .class  | .intro | Selects all elements with class = "intro" |
+| element.class | p.intro | Selects all <p> elements with class="intro" |
 
     
        *	                        *	                       - Selects all elements
