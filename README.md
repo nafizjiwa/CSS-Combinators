@@ -43,15 +43,15 @@ Between the simple selectors, we can include a combinator. There are 4 different
 | element+element | div + p2 | Selects the first <p> element that is placed immediately after <div> elements |
 | element1~element21 | p ~ ul | Selects every <ul> element that is preceded by a <p> element |
 
-An example hover over one element and highlight the other element. Here a cube is in a container div. 
-If the cube is directly inside the container:
-    #container:hover > #cube { background-color: yellow; }
-If cube is next to (after containers closing tag) the container:
-    #container:hover + #cube { background-color: yellow; }
-If the cube is somewhere inside the container:
-    #container:hover #cube { background-color: yellow; }
-If the cube is a sibling of the container:
-    #container:hover ~ #cube { background-color: yellow; }
+An example hover over one element and highlight the other element. Here a cube is in a container div. <br>
+If the cube is directly inside the container:<br>
+    #container:hover > #cube { background-color: yellow; }<br>
+If cube is next to (after containers closing tag) the container:<br>
+    #container:hover + #cube { background-color: yellow; }<br>
+If the cube is somewhere inside the container:<br>
+    #container:hover #cube { background-color: yellow; }<br>
+If the cube is a sibling of the container:<br>
+    #container:hover ~ #cube { background-color: yellow; }<br>
 
 
 
