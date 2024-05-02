@@ -12,15 +12,12 @@ First, CSS Selectors are patterns used to select elements.<br>
 | :---- | :----: | ----: |
 |  .class  | .intro | Selects all elements with class = "intro" |
 | element.class | p.intro | Selects all <p> elements with class="intro" |
-
+| [attribute] | [target] | Selects all elements with a target attribute |
+| :active | a:active | Selects the active link |
+| ::after | p::after | Insert something after the content of each <p> element |
+| ::before | p::before | Insert something before the content of each <p> element: |
     
-       *	                        *	                       - Selects all elements
-    .class                     .intro                      - Selects all elements with class = "intro"
-    element.class	             p.intro	                   - Selects all <p> elements with class="intro"
-    [attribute]	               [target]	                   - Selects all elements with a target attribute
-    :active	                   a:active	                   - Selects the active link
-    ::after	                   p::after	                   - Insert something after the content of each <p> element
-    ::before	                 p::before	                 - Insert something before the content of each <p> element
+   
 
 Between the simple selectors, we can include a combinator. There are 4 different combinators in CSS:
 
