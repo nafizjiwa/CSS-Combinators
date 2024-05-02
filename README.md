@@ -21,14 +21,18 @@ First, CSS Selectors are patterns used to select elements.<br>
 
 Between the simple selectors, we can include a combinator. There are 4 different combinators in CSS:
 
-    descendant selector (space) - matches all elements that are descendants of a specified element.
-                        div p {} - selects all <p> elements inside <div> elements
-    child selector (>) - selects all elements that are the children of a specified element
-                        div > p {} - selects all <p> elements that are children of a <div> element
-    adjacent sibling selector (+) - selects an element that is directly after another specific element. (must be in parent container)
-                        div + p {} - selects the first <p> element that are placed immediately after <div> elements
-    general sibling selector (~) - selects all elements that are next siblings of a specified element.
-                        div ~ p {} - selects all <p> elements that are next siblings of <div> elements
+    descendant selector (space) 
+                                - matches all elements that are descendants of a specified element.
+                                div p {} - selects all <p> elements inside <div> elements
+    child selector (>) 
+                                - selects all elements that are the children of a specified element
+                                div > p {} - selects all <p> elements that are children of a <div> element
+    adjacent sibling selector (+) 
+                                - selects an element that is directly after another specific element. (must be in parent container)
+                                div + p {} - selects the first <p> element that are placed immediately after <div> elements
+    general sibling selector (~) 
+                                - selects all elements that are next siblings of a specified element.
+                                div ~ p {} - selects all <p> elements that are next siblings of <div> elements
 
 
 #### Combined selectors
