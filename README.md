@@ -6,7 +6,7 @@ Combinators explain the relationship between the selectors they surround.
 
 First, CSS Selectors are patterns used to select elements.
     Example: 
-    Simple Selectors           Example                     Description
+    Simple Selectors           Example                     Description<br>
        *	                        *	                       - Selects all elements
     .class                     .intro                      - Selects all elements with class = "intro"
     element.class	             p.intro	                   - Selects all <p> elements with class="intro"
@@ -21,6 +21,11 @@ Between the simple selectors, we can include a combinator. There are 4 different
     child selector (>)
     adjacent sibling selector (+)
     general sibling selector (~)
+
+| Header1 | Header2 | Header3 |
+| :---- | :----: | ----: |
+| R1C1 | R1C2 | R1C3 |
+| R2C1 | R2C2 | R2C3 |
 
 .class1 .class2            .name1 .name2	             - Selects all elements with name2 that is a descendant of an element with name1
 element>element	           div > p	                   - Selects all <p> elements where the parent is a <div> element
