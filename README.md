@@ -8,7 +8,7 @@ Combinators explain the relationship between the selectors they surround.<br>
 First, CSS Selectors are patterns used to select elements.<br>
     Example: <br>
     
-| Simple Selectors | Example | Description |
+| Simple Selectors | Example | Description           |
 | :---- | :----: | ----: |
 | .class  | .intro | Selects all elements with class = "intro" |
 | element.class | p.intro | Selects all <p> elements with class="intro" |
