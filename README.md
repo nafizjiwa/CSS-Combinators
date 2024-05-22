@@ -8,15 +8,16 @@ Combinators are selectors that combine other selectors in a way to give them a u
 CSS Selectors are used to select HTML elements on our web pages that we want to style.<br>
 
         SELECTOR {
-                    CSS Rule states which html element is selected to have the css property values inside the rule applied to them.
+                CSS Rule states which html element is selected to have the css property values inside the rule applied to them.
             }
-            <br>
+ <br>
+ 
         h1 {
                 color: blue;
         }
-        
-    Example: <br>
 
+
+Example: <br>
 
 | Simple Selectors | Example | Description |
 | :--------------- | :-----: | :---------------------------------------|
