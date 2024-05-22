@@ -12,7 +12,17 @@ CSS Selectors are used to select HTML elements on our web pages that we want to 
         h1 {
                 color: blue;       //so style the h1 element with the text a color blue
         }
-
+| The group of Selectors | What the selector styles | Example | 
+| :--------------- | :---------------------------------------|:-----:| 
+| Type Selector | Targets an html element   | //<h1> | 
+| Class Selector | Targets an element with a specific value for its class attribute  | .box | 
+| ID Selector | Targets an element that has a specific value for its id attribute   | #unique | 
+| Attribute Selector | select elements based on the presence of a certain attribute on an element  | a[title] | 
+| Attribute Selector | make a selection based on the presence of an attribute with a particular value | a[href="https://example.com"] | 
+| Psuedo-classes | Styles a certain state of an element  | a:state | 
+|  EG. a:state | selects an element only when it is being hovered over  | a:hover | 
+| Psuedo-elements | select a certain part of an element rather than the element itself  | element::part of element | 
+| element::part of element | selects the first line of text inside the element p | p::first-line | 
 
 Example: <br>
 
