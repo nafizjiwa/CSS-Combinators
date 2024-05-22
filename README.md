@@ -44,7 +44,7 @@ Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
 #### Combined selectors
 | Combinator with selectors  | Example       | What Combinator does                                                                   | COMBINATOR USED           |
 | :----:                 | :----------:      | :----                                                                        |  :----:  |
-| .class1 .class2        |  .name().name2  | Selects name2 elements having a descendant element of name                 |  SPACE OR " "  |
+| .class1 .class2        |  .name .name2  | Selects name2 elements having a descendant element of name                 |  SPACE or " "  |
 | element > element     | div > p       | Selects all p elements where the parent is a div element                      |         >   |
 | element + element     | div + p2      | Selects the 1st the p element that is immediately after div elements          |         +  |
 | element1 ~ element2   | p ~ ul        | Selects every ul element that is preceded by a p element                      |          ~ |
