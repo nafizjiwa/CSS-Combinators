@@ -40,7 +40,7 @@ Between the simple selectors, we can include a combinator. There are 4 different
 
 
 #### Combined selectors
-| Header1 | Header2 | Header3 |
+| Header1             | Header2       | Header3                                                                       |
 | :----               | :----:        | ----:                                                                         |
 | .class1 .class2     | .name1 .name2 | Selects all elements with name2 that is a descendant of an element with name1 |
 | element>element     | div > p       | Selects all <p> elements where the parent is a <div> element3                 |
