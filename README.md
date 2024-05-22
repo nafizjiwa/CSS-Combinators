@@ -6,7 +6,21 @@ Combinators are selectors that combine other selectors and provide a useful rela
 
 First, CSS Selectors are patterns used to select elements.<br>
     Example: <br>
-    
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="50%">First header</th>
+      <th width="50%">Second header long</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%"><img src="https://docs.github.com/assets/cb-194149/images/help/images/view.png"/></td>
+      <td width="50%"><img src="https://docs.github.com/assets/cb-194149/images/help/images/view.png"/></td>
+    </tr>
+  </tbody>
+</table>
+
 | Simple Selectors | Example | Description                                 |
 | :--------------- | :-----: | ---------------------------------------:    |
 | .class  | .intro | Selects all elements with class = "intro"             |
