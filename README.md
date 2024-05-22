@@ -10,7 +10,7 @@ First, CSS Selectors are patterns used to select elements.<br>
     
 | Simple Selectors | Example | Description |
 | :---- | :----: | ----: |
-|  .class  | .intro | Selects all elements with class = "intro" |
+| .class  | .intro | Selects all elements with class = "intro" |
 | element.class | p.intro | Selects all <p> elements with class="intro" |
 | [attribute] | [target] | Selects all elements with a target attribute |
 | :active | a:active | Selects the active link |
