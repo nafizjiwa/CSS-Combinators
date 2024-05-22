@@ -18,11 +18,6 @@ First, CSS Selectors are patterns used to select elements.<br>
 | ::before | p::before | Insert something before the content of each p element: |
     
    
-
-Between the simple selectors, we can include a combinator.<br>
-***SYNTAX:*** 
-
-    simple selector (1 of 4 combinatores between) simple selector
 There are 4 different combinators in CSS:<br>
 
     descendant selector (space)  ------> matches all elements that are descendants of a specified element.
@@ -42,7 +37,10 @@ There are 4 different combinators in CSS:<br>
                                                                      siblings of <div> elements.
                                
 
+Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
+***SYNTAX:*** 
 
+    simple selector (1 of 4 combinatores between) simple selector<br>
 #### Combined selectors
 | Header1             | Header2       | Header3                                                                       |
 | :----               | :----:        | :----                                                                         |
