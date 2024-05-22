@@ -42,9 +42,9 @@ Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
 
     simple selector (1 of 4 combinatores between) simple selector<br>
 #### Combined selectors
-| Combinator with selectors  | Example       | What it does                                                                   | COMBINATOR USED           |
-| :----:                 | :----        | :----                                                                        |  :----:  |
-| .class1 .class2         | .name1 .name2 | Selects name2 elements having a descendant element with name1                 |  SPACE OR " "  |
+| Combinator with selectors  | Example       | What Combinator does                                                                   | COMBINATOR USED           |
+| :----:                 | :----------       | :----                                                                        |  :----:  |
+| .class1 .class2        |  .name1 .name2  | Selects name2 elements having a descendant element with name1                 |  SPACE OR " "  |
 | element > element     | div > p       | Selects all p elements where the parent is a div element                      |         >   |
 | element + element     | div + p2      | Selects the 1st the p element that is immediately after div elements          |         +  |
 | element1 ~ element2   | p ~ ul        | Selects every ul element that is preceded by a p element                      |          ~ |
