@@ -8,8 +8,8 @@ First, CSS Selectors are patterns used to select elements.<br>
     Example: <br>
 
 
-| Simple Selectors | Example | Description                                 |
-| :--------------- | :-----: | ---------------------------------------:    |
+| Simple Selectors | Example | Description |
+| :--------------- | :-----: | :---------------------------------------:|
 | .class  | .intro | Selects *elements* with class = "intro"             |
 | element.class | p.intro | Selects *all <p> elements* with class="intro"    |
 | [attribute] | [target] | Selects elements an attribute of target    |
