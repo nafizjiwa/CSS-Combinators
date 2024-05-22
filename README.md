@@ -42,11 +42,11 @@ There are 4 different combinators in CSS:<br>
 
 #### Combined selectors
 | Header1             | Header2       | Header3                                                                       |
-| :----               | :----:        | ----:                                                                         |
+| :----               | :----:        | :----                                                                         |
 | .class1 .class2     | .name1 .name2 | Selects all elements with name2 that is a descendant of an element with name1 |
-| element>element     | div > p       | Selects all <p> elements where the parent is a <div> element3                 |
-| element+element     | div + p2      | Selects the first <p> element that is placed immediately after <div> elements |
-| element1~element21  | p ~ ul        | Selects every <ul> element that is preceded by a <p> element                  |
+| element>element     | div > p       | Selects all p elements where the parent is a div element                 |
+| element+element     | div + p2      | Selects the first p element that is placed immediately after div elements |
+| element1~element21  | p ~ ul        | Selects every ul element that is preceded by a p element                  |
 
 An example hover over one element and highlight the other element. Here a cube is in a container div. <br>
 If the cube is directly inside the container:<br>
