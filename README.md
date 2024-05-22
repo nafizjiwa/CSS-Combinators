@@ -9,14 +9,17 @@ First, CSS Selectors are patterns used to select elements.<br>
 <table width="100%">
   <thead>
     <tr>
-      <th width="50%">First header</th>
-      <th width="50%">Second header long</th>
+      <th width="33%"> Simple Selectors</th>
+      <th width="33%"> Example</th>
+      <th width="33%"> Description </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%"><img src="https://docs.github.com/assets/cb-194149/images/help/images/view.png"/></td>
-      <td width="50%"><img src="https://docs.github.com/assets/cb-194149/images/help/images/view.png"/></td>
+      <td width="33%">.class </td>
+      <td width="33%">.intro</td>
+      <td width="33%">Selects all elements with class = "intro</td>
+
     </tr>
   </tbody>
 </table>
