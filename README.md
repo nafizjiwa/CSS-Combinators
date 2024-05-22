@@ -6,30 +6,14 @@ Combinators are selectors that combine other selectors and provide a useful rela
 
 First, CSS Selectors are patterns used to select elements.<br>
     Example: <br>
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="33%"> Simple Selectors</th>
-      <th width="33%"> Example</th>
-      <th width="33%"> Description </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="33%">.class </td>
-      <td width="33%">.intro</td>
-      <td width="33%">Selects all elements with class = "intro</td>
 
-    </tr>
-  </tbody>
-</table>
 
 | Simple Selectors | Example | Description                                 |
 | :--------------- | :-----: | ---------------------------------------:    |
-| .class  | .intro | Selects all elements with class = "intro"             |
-| element.class | p.intro | Selects all <p> elements with class="intro"    |
-| [attribute] | [target] | Selects all elements with a target attribute    |
-| :active | a:active | Selects the active link                             |
+| .class  | .intro | Selects *elements* with class = "intro"             |
+| element.class | p.intro | Selects *all <p> elements* with class="intro"    |
+| [attribute] | [target] | Selects elements an attribute of target    |
+| :active | a:active | Selects the active a link                             |
 | ::after | p::after | Insert something after the content of each <p> element |
 | ::before | p::before | Insert something before the content of each <p> element: |
     
