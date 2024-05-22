@@ -55,7 +55,7 @@ There are 4 different combinators in CSS:<br>
 Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
 ***SYNTAX:*** 
 
-    simple selector (1 of 4 combinatores between) simple selector<br>
+    simple selector (1 of 4 combinators here) simple selector<br>
 #### Combined selectors
 | Combinator with selectors  | Example       | What Combinator does                                                 | COMBINATOR USED           |
 | :----:                 | :----------:      | :----                                                                        |  :----:  |
