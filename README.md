@@ -11,11 +11,11 @@ First, CSS Selectors are patterns used to select elements.<br>
 | Simple Selectors | Example | Description |
 | :--------------- | :-----: | :---------------------------------------|
 | .class  | .intro | Selects *elements* with class = "intro"             |
-| element.class | p.intro | Selects *all \\<p>\\ elements* with class="intro"    |
+| element.class | p.intro | Selects *all p elements* with class="intro"    |
 | [attribute] | [target] | Selects elements an attribute of target    |
 | :active | a:active | Selects the active a link                             |
-| ::after | p::after | Insert something after the content of each <p> element |
-| ::before | p::before | Insert something before the content of each <p> element: |
+| ::after | p::after | Insert something after the content of each p element |
+| ::before | p::before | Insert something before the content of each p element: |
     
    
 
