@@ -1,9 +1,6 @@
 # CSS-Combinators
 What they are ? and Examples.
 
-# CSS Combinators
-Combinators are selectors that combine other selectors in a way to give them a useful relationship to each other and the LOCATION of content in a document.
-
 ##### First,<br> 
 CSS Selectors are used to select HTML elements on our web pages that we want to style.<br>
 
@@ -27,8 +24,15 @@ Example: <br>
 | :active | a:active | Selects the active a link                             |
 | ::after | p::after | Insert something after the content of each p element |
 | ::before | p::before | Insert something before the content of each p element: |
-    
-   
+##### Combine 2 or more selectors with a comma:
+
+        h1, .special {
+                  color: blue;
+                }
+
+
+# CSS Combinators
+Combinators are selectors that combine other selectors in a way to give them a useful relationship to each other and the LOCATION of content in a document.<br>
 There are 4 different combinators in CSS:<br>
 
     descendant selector (space)  ------> matches all elements that are descendants of a specified element.
@@ -53,7 +57,7 @@ Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
 
     simple selector (1 of 4 combinatores between) simple selector<br>
 #### Combined selectors
-| Combinator with selectors  | Example       | What Combinator does                                                                   | COMBINATOR USED           |
+| Combinator with selectors  | Example       | What Combinator does                                                 | COMBINATOR USED           |
 | :----:                 | :----------:      | :----                                                                        |  :----:  |
 | .class1 .class2        |  .name .name2,  | Selects name2 elements having a descendant element of name                 |  SPACE or " "  |
 | element > element     | div > p       | Selects all p elements where the parent is a div element                      |         >   |
