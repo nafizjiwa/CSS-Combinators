@@ -8,12 +8,12 @@ Combinators explain the relationship between the selectors they surround.<br>
 First, CSS Selectors are patterns used to select elements.<br>
     Example: <br>
     
-| Simple Selectors | Example | Description                              |
-| :--------------- | :-----: | ---------------------------------------: |
-| .class  | .intro | Selects all elements with class = "intro"           |
-| element.class | p.intro | Selects all <p> elements with class="intro" |
-| [attribute] | [target] | Selects all elements with a target attribute |
-| :active | a:active | Selects the active link               |
+| Simple Selectors | Example | Description                                 |
+| :--------------- | :-----: | ---------------------------------------:    |
+| .class  | .intro | Selects all elements with class = "intro"             |
+| element.class | p.intro | Selects all <p> elements with class="intro"    |
+| [attribute] | [target] | Selects all elements with a target attribute    |
+| :active | a:active | Selects the active link                             |
 | ::after | p::after | Insert something after the content of each <p> element |
 | ::before | p::before | Insert something before the content of each <p> element: |
     
