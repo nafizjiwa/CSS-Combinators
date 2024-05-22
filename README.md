@@ -2,7 +2,7 @@
 What they are ? and Examples.
 
 # CSS Combinators
-Combinators combine selectors and explain the relationship between the selectors they surround.<br>
+Combinators are selectors that combine other selectors and provide a useful relationship to each other and the locadtion of content in a document.
 
 First, CSS Selectors are patterns used to select elements.<br>
     Example: <br>
