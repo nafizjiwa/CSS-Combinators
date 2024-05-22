@@ -13,7 +13,7 @@ CSS Selectors are used to select HTML elements on our web pages that we want to 
  <br>
  
         h1 {
-                color: blue;
+                color: blue;       //so style the h1 element with the text a color blue
         }
 
 
@@ -21,7 +21,7 @@ Example: <br>
 
 | Simple Selectors | Example | Description |
 | :--------------- | :-----: | :---------------------------------------|
-| .class  | .intro | Selects *elements* with class = "intro"             |
+| .class  | .intro | Selects *elements* with class = "intro" to style        |
 | element.class | p.intro | Selects *all p elements* with class="intro"    |
 | [attribute] | [target] | Selects elements with an attribute of target    |
 | :active | a:active | Selects the active a link                             |
