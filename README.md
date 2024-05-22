@@ -12,7 +12,7 @@ First, CSS Selectors are patterns used to select elements.<br>
 | :--------------- | :-----: | :---------------------------------------|
 | .class  | .intro | Selects *elements* with class = "intro"             |
 | element.class | p.intro | Selects *all p elements* with class="intro"    |
-| [attribute] | [target] | Selects elements an attribute of target    |
+| [attribute] | [target] | Selects elements with an attribute of target    |
 | :active | a:active | Selects the active a link                             |
 | ::after | p::after | Insert something after the content of each p element |
 | ::before | p::before | Insert something before the content of each p element: |
@@ -44,7 +44,7 @@ Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
 #### Combined selectors
 | Combinator with selectors  | Example       | What Combinator does                                                                   | COMBINATOR USED           |
 | :----:                 | :----------:      | :----                                                                        |  :----:  |
-| .class1 .class2        |  .name .name2  | Selects name2 elements having a descendant element of name                 |  SPACE OR " "  |
+| .class1 .class2        |  .name.name2  | Selects name2 elements having a descendant element of name                 |  SPACE OR " "  |
 | element > element     | div > p       | Selects all p elements where the parent is a div element                      |         >   |
 | element + element     | div + p2      | Selects the 1st the p element that is immediately after div elements          |         +  |
 | element1 ~ element2   | p ~ ul        | Selects every ul element that is preceded by a p element                      |          ~ |
