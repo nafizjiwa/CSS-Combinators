@@ -27,12 +27,12 @@ There are 4 different combinators in CSS:<br>
                                                 div > p {} - selects all <p> elements that are children 
                                                                                 of a <div> element.
                                
-    adjacent sibling selector (+)  --------> selects an element that is directly after another specific element.
+    adjacent sibling selector (+)  ----> selects an element that is directly after another specific element
                                                     (must be in parent container)
                                             div + p {} - selects the first <p> element that are placed
                                                                     immediately after <div> elements.
                                 
-    general sibling selector (~)  ---------> selects all elements that are next siblings of a specified element.
+    general sibling selector (~)  ------> selects all elements that are next siblings of a specified element
                                              div ~ p {} - selects all <p> elements that are next
                                                                      siblings of <div> elements.
                                
