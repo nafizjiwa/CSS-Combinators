@@ -19,7 +19,10 @@ First, CSS Selectors are patterns used to select elements.<br>
     
    
 
-Between the simple selectors, we can include a combinator. ***SYNTAX:*** --> simple selector (1 of 4 combinatores between) simple selector <br>
+Between the simple selectors, we can include a combinator.<br>
+***SYNTAX:*** --> 
+
+    `simple selector (1 of 4 combinatores between) simple selector` <br>
 There are 4 different combinators in CSS:<br>
 
     descendant selector (space)  ------> matches all elements that are descendants of a specified element.
