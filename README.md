@@ -4,14 +4,14 @@ What they are ? and Examples.
 ##### First,<br> 
 CSS Selectors are used to select HTML elements on our web pages that we want to style.<br>
 
-SELECTOR {
+        SELECTOR {
         CSS Rule states which html element is selected to have the css property values inside the rule applied to them.
         }
  <br>
  
-h1 {
+        h1 {
         color: blue;       //so style the h1 element with the text a color blue
-   }
+           }
 | The group of Selectors | What the selector styles | Example | 
 | :--------------- | :---------------------------------------|:-----:| 
 | Type Selector | Targets an html element   | //<h1> | 
