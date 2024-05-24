@@ -57,7 +57,8 @@ There are 4 different combinators in CSS:<br>
                                 
     general sibling selector (~)  ------> selects elements that are NEXT siblings of a an element
                                              div ~ p {} - selects <p> elements that are ONLY next
-                                                        siblings of a <div> NOT SIBLINGS BEFORE div.
+                                                        siblings of a <div> NOT BEFORE SIBLINGS div.
+                                                        The div must precedes p element
                                
 
 Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
