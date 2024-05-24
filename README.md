@@ -14,7 +14,7 @@ CSS Selectors are used to select HTML elements on our web pages that we want to 
            }
 | The group of Selectors | What the selector styles | Example | 
 | :--------------- | :---------------------------------------|:-----:| 
-| Type Selector | Targets an html element   | <h1> | 
+| Type Selector | Targets an html element   | h1 | 
 | Class Selector | Targets an element with a specific value for its class attribute  | .box | 
 | ID Selector | Targets an element that has a specific value for its id attribute   | #unique | 
 | Attribute Selector | select elements based on the presence of a certain attribute on an element  | a[title] | 
