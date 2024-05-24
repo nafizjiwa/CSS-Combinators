@@ -53,7 +53,7 @@ There are 4 different combinators in CSS:<br>
                                
     adjacent sibling selector (+)  ----> selects elements that is directly after another specific element
                                                     (must be in parent container)
-                                        div + p {} - selects the first <p> element placed immediately after a <div>.
+                                        div + p {} - selects the first <p> element placed immediately after a closimg </div>.
                                 
     general sibling selector (~)  ------> selects elements that are next siblings of a an element
                                              div ~ p {} - selects <p> elements that are next
@@ -69,7 +69,7 @@ Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
 | :----:                 | :----------:      | :----                                                                        |  :----:  |
 | .class1 .class2        |  .name .name2,  | Selects name2 elements having a descendant element of name                 |  SPACE or " "  |
 | element > element     | div > p       | Selects all p elements where the parent is a div element                      |         >   |
-| element + element     | div + p2      | Selects the 1st p element immediately after div elements          |         +  |
+| element + element     | div + p2      | Selects the 1st p element immediately after a closing div element          |         +  |
 | element1 ~ element2   | p ~ ul        | Selects every ul element that is preceded by a p element                      |          ~ |
 
 An example hover over one element and highlight the other element. Here a cube is in a container div. <br>
