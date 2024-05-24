@@ -4,14 +4,14 @@ What they are ? and Examples.
 ##### First,<br> 
 CSS Selectors are used to select HTML elements on our web pages that we want to style.<br>
 
-        SELECTOR {
-                CSS Rule states which html element is selected to have the css property values inside the rule applied to them.
-            }
+SELECTOR {
+        CSS Rule states which html element is selected to have the css property values inside the rule applied to them.
+        }
  <br>
  
-        h1 {
-                color: blue;       //so style the h1 element with the text a color blue
-        }
+h1 {
+        color: blue;       //so style the h1 element with the text a color blue
+   }
 | The group of Selectors | What the selector styles | Example | 
 | :--------------- | :---------------------------------------|:-----:| 
 | Type Selector | Targets an html element   | //<h1> | 
@@ -48,18 +48,16 @@ There are 4 different combinators in CSS:<br>
     descendant selector (space)  ------> matches all elements that are descendants of a specified element.
                                                 div p {} - selects all <p> elements inside <div> elements.
                                
-    child selector (>)      -----------> selects all elements that are the children of a specified element
-                                                div > p {} - selects all <p> elements that are children 
-                                                                                of a <div> element.
+    child selector (>)      -----------> selects all elements that are ONLY the CHILDREN of a specified element
+                                                div > p {} - selectS <p> elements that are children of a <div>.
                                
-    adjacent sibling selector (+)  ----> selects an element that is directly after another specific element
+    adjacent sibling selector (+)  ----> selects elements that is directly after another specific element
                                                     (must be in parent container)
-                                            div + p {} - selects the first <p> element that are placed
-                                                                    immediately after <div> elements.
+                                        div + p {} - selects the first <p> element placed immediately after a <div>.
                                 
-    general sibling selector (~)  ------> selects all elements that are next siblings of a specified element
-                                             div ~ p {} - selects all <p> elements that are next
-                                                                     siblings of <div> elements.
+    general sibling selector (~)  ------> selects elements that are next siblings of a an element
+                                             div ~ p {} - selects <p> elements that are next
+                                                                     siblings of a <div>.
                                
 
 Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
