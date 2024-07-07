@@ -88,6 +88,7 @@ If the cube is a sibling of the container:<br>
     #container:hover ~ #cube { background-color: yellow; }
 
 #### FINAL EXAMPLE
+----
 
 ##### .main {
 #####   margin: 20px auto;
@@ -97,10 +98,11 @@ If the cube is a sibling of the container:<br>
 ##### }
 
 
-        Using .main.content (with no space) will target any elements that have a class of both main and content. This is none in your case.
+        Using .main.content (with no space) will target any elements that have a class of both main and content.
 <br>
 
-        Using .main .content (with a space) will target any elements with a class of .content that are descendants of an element with a class of .main. ALL DESCENDENTS OF .main.
+        Using .main .content (with a space) will target any elements with a class of .content
+        that are descendants of an element with a class of .main. ALL DESCENDENTS OF .main.
 <br>
 
         If you are trying to target the final element with a class of content use the `:last-child` pseudo-class.
