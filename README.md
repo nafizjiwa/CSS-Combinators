@@ -89,13 +89,14 @@ If the cube is a sibling of the container:<br>
 
 ### FINAL EXAMPLE
 ----
-
-                ### .main {
-                ###   margin: 20px auto;
-                ### }
-                ### .content {
-                ###   margin: 10px auto;
-                ### }
+||CSS STYLE|
+|----|---|
+||.main {|
+||        margin: 20px auto;|
+||}|          
+||.content {|
+||margin: 10px auto;|
+||}|
 
 
         Using .main.content (with no space) will target any elements that have a class of both main and content.
@@ -108,9 +109,9 @@ If the cube is a sibling of the container:<br>
         If you are trying to target the final element with a class of content use the `:last-child` pseudo-class.
         This pseudo-class represents the last element of a group of sibling elements.
 
-                ###  .content:last-child {
-                ###     margin-bottom:0px;
-                ###  }
+###  .content:last-child {
+###     margin-bottom:0px;
+###  }
 
 
 
