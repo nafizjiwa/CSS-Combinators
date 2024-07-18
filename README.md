@@ -48,18 +48,22 @@ Are Selectors that combine other selectors to show a relationship to each other 
 There are 4 different combinators in CSS:<br>
 
     DESCENDENT selector (space)  ------> Styles all element children (descendants) of the former element.
-                                                div p {} - selects all <p> elements inside <div> direct or indirect (descendent) children elements.
+            
+            div p {} - selects all <p> elements inside <div> direct or indirect (descendent) children elements.
                                
     CHILD selector (>)      -----------> Style ONLY the DIRECT children of the former element
-                                                div > p {} - selectS <p> elements that are DIRECT children (not all children) of a <div>.
+
+            div > p {} - selectS <p> elements that are DIRECT children (not all children) of a <div>.
                                
     ADJACENT SIBLING selector (+)  ----> Styles ONLY elements directly after the former element.  (must siblings)
-                                        div + p {} - selects the FIRST <p> element placed immediately after a <div>.
+                                        
+            div + p {} - selects the FIRST <p> element placed immediately after a <div>.
                                 
     GENERAL SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element.
-                                             div ~ p {} - selects <p> elements that are ONLY next
-                                                        siblings of a <div> NOT BEFORE SIBLINGS div.
-                                                        The div must precedes p element
+                                             
+            div ~ p {} - selects <p> elements that are ONLY next
+                        siblings of a <div> NOT BEFORE SIBLINGS div.
+                        The div must precedes p element
                                
 
 Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
