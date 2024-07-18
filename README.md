@@ -5,12 +5,12 @@ What they are ?
 CSS Selectors are used to select HTML elements on our web pages that we want to style.<br>
 
         CSS SELECTOR {
-               The CSS Rule within curly braces states the css property and values to style the CSS selector.
+               The CSS Rule containes properties and values to style the CSS selector.
         }
  <br>
  
         h1 {
-        color: blue;       //style the h1 element with the color blue
+        color: blue;       //Style the h1 color blue
            }
 | The group of Selectors | What the selector styles | Example | 
 | :--------------- | :---------------------------------------|:-----:| 
@@ -62,11 +62,10 @@ There are 4 different combinators in CSS:<br>
                                         
             div + p {} - selects the FIRST <p> element placed immediately after a <div>.
                                 
-    GENERAL SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element.
+    GENERAL SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element but NOT siblings before.
                                              
-            div ~ p {} - selects <p> elements that are ONLY next
-                        siblings of a <div> NOT BEFORE SIBLINGS div.
-                        The div must precedes p element
+            div ~ p {} - selects <p> elements that are NEXT siblings of a <div>
+                       The div must precedes p element
                                
 
 #### Combinator selectors
