@@ -42,9 +42,12 @@ Example: <br>
 
 
 # CSS Combinators '+', '>' '~' and 'space'.
-Are Selectors that combine other selectors to show a relationship to each other and the LOCATION of content to be styles in the document.<br>
+Selectors that combine other selectors to show a relationship to each other and the LOCATION of content to be styled.<br>
 
-        FORMER_ELEMENT + TARGET_ELEMENT { style properties }
+***SYNTAX:*** 
+
+     FORMER_ELEMENT (simple selector) [Combinator inserted here] TARGET_ELEMENT (simple selector) { style properties }
+
 There are 4 different combinators in CSS:<br>
 
     DESCENDENT selector (space)  ------> Styles all element children (descendants) of the former element.
@@ -66,11 +69,7 @@ There are 4 different combinators in CSS:<br>
                         The div must precedes p element
                                
 
-Between the simple selectors, we can include ONE OF THESE COMBINATORS.<br>
-***SYNTAX:*** 
-
-    simple selector (1 of 4 combinators here) simple selector<br>
-#### Combined selectors
+#### Combinator selectors
 | Combinator with selectors  | Example       | What Combinator does                                                 | COMBINATOR USED           |
 | :----:                 | :----------:      | :----                                                                        |  :----:  |
 | .class1 .class2        |  .name .name2,  | Selects name2 elements having a descendant element of name                 |  SPACE or " "  |
