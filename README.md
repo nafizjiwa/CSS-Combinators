@@ -1,16 +1,16 @@
-# CSS-Combinators
-What they are ? and Examples.
+# CSS-Combinators '+', '>','~'and'space'
+What they are ?
 
 ##### First,<br> 
 CSS Selectors are used to select HTML elements on our web pages that we want to style.<br>
 
-        SELECTOR {
-        CSS Rule states which html element is selected to have the css property values inside the rule applied to them.
+        CSS SELECTOR {
+               The CSS Rule within curly braces states the css property and values to style the CSS selector.
         }
  <br>
  
         h1 {
-        color: blue;       //so style the h1 element with the text a color blue
+        color: blue;       //style the h1 element with the color blue
            }
 | The group of Selectors | What the selector styles | Example | 
 | :--------------- | :---------------------------------------|:-----:| 
@@ -42,7 +42,8 @@ Example: <br>
 
 
 # CSS Combinators '+', '>' '~' and 'space'.
-Combinators are selectors that combine other selectors in a way to give them a useful relationship to each other and the LOCATION of content in a document.<br>
+Are Selectors that combine other
+selectors to show a relationship to each other and the LOCATION of content to be styles in the document.<br>
 There are 4 different combinators in CSS:<br>
 
     descendant selector (space)  ------> matches all elements that are descendants of a specified element.
