@@ -44,20 +44,19 @@ Example: <br>
 # CSS Combinators '+', '>' '~' and 'space'.
 Are Selectors that combine other selectors to show a relationship to each other and the LOCATION of content to be styles in the document.<br>
 
-        former_element + target_element { style properties }
+        FORMER_ELEMENT + TARGET_ELEMENT { style properties }
 There are 4 different combinators in CSS:<br>
 
     DESCENDENT selector (space)  ------> Styles all element children (descendants) of the former element.
-                                                div p {} - selects all <p> elements inside <div> directl or indirect children elements.
+                                                div p {} - selects all <p> elements inside <div> direct or indirect (descendent) children elements.
                                
-    CHILD selector (>)      -----------> selects all elements that are ONLY the CHILDREN of a specified element
-                                                div > p {} - selectS <p> elements that are children of a <div>.
+    CHILD selector (>)      -----------> Style ONLY the DIRECT children of the former element
+                                                div > p {} - selectS <p> elements that are DIRECT children (not all children) of a <div>.
                                
-    ADJACENT SIBLING selector (+)  ----> selects elements that is directly after another specific element
-                                                    (must be in parent container)
-                                        div + p {} - selects the first <p> element placed immediately after a closimg </div>.
+    ADJACENT SIBLING selector (+)  ----> Styles ONLY elements directly after the former element.  (must siblings)
+                                        div + p {} - selects the FIRST <p> element placed immediately after a <div>.
                                 
-    GENERAL SIBLING selector (~)  ------> selects elements that are NEXT siblings of a an element
+    GENERAL SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element.
                                              div ~ p {} - selects <p> elements that are ONLY next
                                                         siblings of a <div> NOT BEFORE SIBLINGS div.
                                                         The div must precedes p element
