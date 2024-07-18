@@ -41,7 +41,7 @@ Example: <br>
                 }
 
 
-# CSS Combinators
+# CSS Combinators '+', '>' '~' and 'space'.
 Combinators are selectors that combine other selectors in a way to give them a useful relationship to each other and the LOCATION of content in a document.<br>
 There are 4 different combinators in CSS:<br>
 
