@@ -62,7 +62,7 @@ There are 4 different combinators in CSS:<br>
                                         
             div + p {} - selects the FIRST <p> element placed immediately after a <div>.
                                 
-    GENERAL SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element but NOT siblings before.
+     SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element but NOT siblings before.
                                              
             div ~ p {} - selects <p> elements that are NEXT siblings of a <div>
                        The div must precedes p element
