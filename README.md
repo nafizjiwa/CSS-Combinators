@@ -8,6 +8,7 @@ Selectors select the HTML element to style.<br>
                color: blue;
         }
  <br>
+
 | The group of Selectors | What the selector styles | Example | 
 | :--------------- | :---------------------------------------|:-----:| 
 | Attribute Selector | select elements based on the presence of a certain attribute on an element  | a[title] | 
