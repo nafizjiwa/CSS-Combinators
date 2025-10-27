@@ -8,12 +8,27 @@ Selectors select the HTML element to style.<br>
                color: blue;
         }
  <br>
-
-| The group of Selectors | What the selector styles | Example | 
-| :--------------- | :---------------------------------------|:-----:| 
-| Attribute Selector | select elements based on the presence of a certain attribute on an element  | a[title] | 
-| Attribute Selector | make a selection based on the presence of an attribute with a particular value | a[href="https://example.com"] | 
-| element::part of element | selects the first line of text inside the element p | p::first-line | 
+#### Attributes are things like href, title, alt, etc., defined in HTML tags.
+| Attribute Selectors | What the selector styles | 
+| :--------------- | :-------------------|
+| [attribute] | Selects elements that have a this specific attribute |
+|a[title] → Styles any <a> tag that has a title attribute.|
+|input[required]| targets all <input> elements that include the required attribute|
+| [attribute="value"] | selects elements that have a specific attribute with an exact value|
+|a[href="https://example.com"] |This targets only <a> elements whose href exactly matches "https://example.com"| 
+### Examples of Common HTML Attributes
+|Attribute|	Used In	Purpose|
+|href|	<a>|	Specifies the link destination|
+|src|	<img>|	Specifies the image source|
+|alt|	<img>|	Provides alternative text|
+|title|	Any tag|	Tooltip text on hover|
+|type|	<input>|	Defines input type (e.g., text, checkbox)|
+|required|	<input>|	Marks field as mandatory|
+        ---
+| Pseudo-element Selector |let you style parts of an elements | 
+| :--------------- | :-------------------|
+| element::first-line | Lets you style first line of the element|
+|p::first-line | Targets the first line of visible text inside a block-level element like <p>|
 
 #### Example:
 
