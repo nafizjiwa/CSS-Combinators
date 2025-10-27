@@ -57,7 +57,7 @@ Are Selectors that combine selectors to show a relationship between.<br>
             div ~ p {} - selects <p> sibling elements AFTER a <div> or selects all p 
 
 |Combinator with selectors |Example|
-|:----:|:----------:|
+|:----:|:----------|
 |h1 p:|selects any <p> inside an <h1>|
 |h1 ~ p: |selects all <p> siblings of <h1>, not just the first.(have same parent)|
 |h1 + p: |selects 1st <p> sibling of <h1>.(have same parent)|
