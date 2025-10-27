@@ -12,7 +12,7 @@ Selectors select the HTML element to style.<br>
 ### Attributes are things like href, title, alt, etc., defined in HTML tags.
 
 | Attribute Selectors | What the selector styles | 
-| :--------------- | :-------------------|
+| :--------------- | :-------------------| 
 | [attribute] | Selects elements that have a this specific attribute |
 |a[title] → Styles any <a> tag that has a title attribute.|
 |input[required]| targets all <input> elements that include the required attribute|
@@ -21,7 +21,7 @@ Selectors select the HTML element to style.<br>
 ### Examples of Common HTML Attributes
 
 |Attribute|Used In| Purpose|
-|:-------- |:------------|
+|:-------- |:------------| :-------------------|
 |href|`<a>`|Specifies the link destination|
 |src|`<img>`|Specifies the image source|
 |alt|<img>|Provides alternative text|
