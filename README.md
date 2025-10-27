@@ -14,10 +14,29 @@ Selectors select the HTML element to style.<br>
 | Attribute Selectors | What the selector styles | 
 | :--------------- | :-------------------| 
 | [attribute] | Selects elements that have a this specific attribute |
-|a[title] |→ Styles any <a> tag that has a title attribute.|
-|input[required]|→ Style all <input> elements that include the required attribute|
-| [attribute="value"] | Selects elements that have a specific attribute with an exact value|
-|a[href="https://example.com"] |→ Styles <a> elements whose href matches "https://example.com"| 
+|EX. a[title] |→ Styles any <a> tag that has a title attribute.|
+|EX. input[required]|→ Style all <input> elements that include the required attribute|
+| [attribute="value"] | Selects elements that have a specific attribute value|
+|EX. a[href="https://example.com"] |→ Styles <a> elements whose href matches "https://example.com"| 
+|EX. button[type="submit"]|→ Styles the <button> element with type="submit"|
+
+---
+
+## 🧾 CSS Attribute Value Selectors Reference
+
+| **Selector**                  | **What It Targets**                                      | **Example HTML**                                |
+|------------------------------|-----------------------------------------------------------|--------------------------------------------------|
+| `a[href="https://example.com"]` | Links with exact `href` value                         | `<a href="https://example.com">Visit</a>`       |
+| `input[type="checkbox"]`     | Checkbox inputs                                           | `<input type="checkbox">`                       |
+| `button[type="submit"]`      | Submit buttons                                            | `<button type="submit">Submit</button>`         |
+| `img[alt="logo"]`            | Images with `alt="logo"`                                 | `<img src="logo.png" alt="logo">`               |
+| `meta[name="description"]`   | Meta tags with a specific `name`                         | `<meta name="description" content="...">`       |
+| `link[rel="stylesheet"]`     | Stylesheet links                                          | `<link rel="stylesheet" href="style.css">`      |
+| `input[required="required"]` | Inputs explicitly marked as required                     | `<input type="text" required="required">`       |
+
+---
+
+
 ### Examples of Common HTML Attributes
 
 |ATTRIBUTE |USED IN | PROGRESS|
