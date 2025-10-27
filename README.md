@@ -20,13 +20,13 @@ Selectors select the HTML element to style.<br>
 ### Examples of Common HTML Attributes
 
 |Attribute|Used In Purpose|
-| :-------- | :------------|
-|href|	<a>|	Specifies the link destination|
-|src|	<img>|	Specifies the image source|
-|alt|	<img>|	Provides alternative text|
-|title|	Any tag|	Tooltip text on hover|
-|type|	<input>|	Defines input type (e.g., text, checkbox)|
-|required|	<input>|	Marks field as mandatory|
+|:-------- |:------------|
+|href|`<a>`|Specifies the link destination|
+|src|`<img>`|Specifies the image source|
+|alt|<img>|Provides alternative text|
+|title|	Any tag|Tooltip text on hover|
+|type|<input>|Defines input type (e.g., text, checkbox)|
+|required|<input>|Marks field as mandatory|
         ---
 | Pseudo-element Selector |let you style parts of an elements | 
 | :--------------- | :-------------------|
