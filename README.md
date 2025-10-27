@@ -75,36 +75,37 @@ If the cube is a sibling of the container:<br>
                         <p></p>
                         <p></p> --> target only this element
 ---
-<div class="container">
-    <h2>Heading</h2>
-    <p>Paragraph directly after h2</p>
-    <p>Another paragraph inside container</p>
-    <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-    </ul>
-  </div>
 
+                <div class="container">
+                    <h2>Heading</h2>
+                    <p>Paragraph directly after h2</p>
+                    <p>Another paragraph inside container</p>
+                    <ul>
+                      <li>List item 1</li>
+                      <li>List item 2</li>
+                    </ul>
+                  </div>
 
- /* Descendant selector */
-    .container p {                  ---> Styles all <p> inside .container (descendant).
-      color: blue;
-    }
-
-    /* Child selector */
-    .container > h2 {               ---> Styles <h2> only if it's a direct child of .container
-      color: green;
-    }
-
-    /* Adjacent sibling selector */
-    h2 + p {                        ---> Styles the first <p> that comes immediately after <h2>
-      font-weight: bold;
-    }
-
-    /* General sibling selector */
-    h2 ~ ul {                     ---> Styles all <ul> that are siblings of <h2> and come after it.
-      background-color: #f0f0f0;
-    }
+                
+                 /* Descendant selector */
+                    .container p {                  ---> Styles all <p> inside .container (descendant).
+                      color: blue;
+                    }
+                
+                    /* Child selector */
+                    .container > h2 {               ---> Styles <h2> only if it's a direct child of .container
+                      color: green;
+                    }
+                
+                    /* Adjacent sibling selector */
+                    h2 + p {                        ---> Styles the first <p> that comes immediately after <h2>
+                      font-weight: bold;
+                    }
+                
+                    /* General sibling selector */
+                    h2 ~ ul {                     ---> Styles all <ul> that are siblings of <h2> and come after it.
+                      background-color: #f0f0f0;
+                    }
 ---
 
 ## 🧾 CSS Selectors Cheat Sheet 
