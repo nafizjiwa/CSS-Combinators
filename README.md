@@ -59,9 +59,9 @@ Are Selectors that combine selectors to show a relationship between.<br>
 |Combinator with selectors |Example|
 |:----:|:----------|
 |h1 p:|selects any p inside an h1|
-|h1 ~ p: |selects all p siblings of h1, not just the first.(have same parent)|
+|h1 ~ p: |selects all p siblings of h1, not just the first (have same parent)|
 |h1 + p: |selects 1st p sibling of h1 (have same parent)|
-|h1 > p: |selects direct child p elements, which only applies if p is nested inside h1.|
+|h1 > p: |selects direct child p elements. Only if p is nested inside h1.|
 
 ### EXAMPLEs
 
