@@ -37,35 +37,35 @@ Are Selectors that combine selectors to show a relationship between.<br>
 
 ***SYNTAX:*** 
 
-     FORMER_ELEMENT (simple selector) [Combinator inserted here] TARGET_ELEMENT (simple selector) { style properties }
+     FORMER_ELEMENT [Combinator inserted here] TARGET_ELEMENT { 
+             styles  }
 
-There are 4 different combinators in CSS:<br>
+4 different combinator selectors in CSS:<br>
 
-    DESCENDENT selector (space)  ------> Styles all element children (descendants) of the former element.
+    DESCENDENT selector (space)  ------> Styles all children ( or descendants) element of an element.
             
-            div p {} - selects all <p> elements inside <div> direct or indirect (descendent) children elements.
+            div p {} - selects all <p> elements inside a <div>. Descendent children elements of a Div.
                                
     CHILD selector (>)      -----------> Style ONLY the DIRECT children of the former element
 
-            div > p {} - selectS <p> elements that are DIRECT children (not all children) of a <div>.
+            div > p {} - selects <p> elements that are DIRECT children of a <div>.
                                
-    ADJACENT SIBLING selector (+)  ----> Styles ONLY elements directly after the former element.  (must siblings)
+    ADJACENT SIBLING selector (+)  ----> Styles direct siblings elements of former element.
                                         
             div + p {} - selects the FIRST <p> element placed immediately after a <div>.
                                 
-     SIBLING selector (~)  ------> Styles all the NEXT siblings of a former element but NOT siblings before.
+     SIBLING selector (~)  ------> Styles  siblings ONLY after former element. (NOT siblings before)
                                              
-            div ~ p {} - selects <p> elements that are NEXT siblings of a <div>
-                       The div must precedes p element
-                               
+            div ~ p {} - selects <p> sibling elements AFTER a <div>
+                                               
 
 #### Combinator selectors
-| Combinator with selectors  | Example       | What Combinator does                                                 | COMBINATOR USED           |
-| :----:                 | :----------:      | :----                                                                        |  :----:  |
-| .class1 .class2        |  .name .name2,  | Selects name2 elements having a descendant element of name                 |  SPACE or " "  |
-| element > element     | div > p       | Selects all p elements where the parent is a div element                      |         >   |
-| element + element     | div + p2      | Selects the 1st p element immediately after a closing div element          |         +  |
-| element1 ~ element2   | p ~ ul        | Selects every ul element that is preceded by a p element                      |          ~ |
+|Combinator with selectors|Example|What Combinator does| COMBINATOR USED|
+|:----:|:----------:| :----|:----:|
+| .class1 .class2|.name .name2|Selects name2 elements having a descendant element of name|SPACE or " "|
+| element > element| div > p| Selects all p elements where the parent is a div element|>   |
+| element + element | div + p2| Selects the 1st p element immediately after a closing div element|+  |
+| element1 ~ element2 | p ~ ul| Selects every ul element that is preceded by a p element|~ |
 
 An example hover over one element and highlight the other element. Here a cube is in a container div. <br>
 If the cube is directly inside the container:<br>
@@ -100,8 +100,6 @@ If the cube is a sibling of the container:<br>
                         <p></p>
                         <p></p>
                         <p></p> --> target only this element
- 
-
 
 ---
 
