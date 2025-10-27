@@ -36,7 +36,6 @@ Selectors select the HTML element to style.<br>
 
 ---
 
-
 ### Examples of Common HTML Attributes
 
 |ATTRIBUTE |USED IN | PROGRESS|
@@ -47,7 +46,7 @@ Selectors select the HTML element to style.<br>
 |title|	Any tag|Tooltip text on hover|
 |type|`<input>`|Defines input type (e.g., text, checkbox)|
 |required|`<input>`|Marks field as mandatory|
-        ---
+---
 | Pseudo-element Selector |let you style parts of an elements | 
 | :--------------- | :-------------------|
 | element::first-line | Lets you style first line of the element|
