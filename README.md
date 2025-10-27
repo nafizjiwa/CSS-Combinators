@@ -9,6 +9,7 @@ Selectors select the HTML element to style.<br>
         }
  <br>
 #### Attributes are things like href, title, alt, etc., defined in HTML tags.
+
 | Attribute Selectors | What the selector styles | 
 | :--------------- | :-------------------|
 | [attribute] | Selects elements that have a this specific attribute |
