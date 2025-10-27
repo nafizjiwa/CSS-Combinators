@@ -14,10 +14,10 @@ Selectors select the HTML element to style.<br>
 | Attribute Selectors | What the selector styles | 
 | :--------------- | :-------------------| 
 | [attribute] | Selects elements that have a this specific attribute |
-|a[title] → Styles any <a> tag that has a title attribute.|
-|input[required]| targets all <input> elements that include the required attribute|
-| [attribute="value"] | selects elements that have a specific attribute with an exact value|
-|a[href="https://example.com"] |This targets only <a> elements whose href exactly matches "https://example.com"| 
+|a[title] |→ Styles any <a> tag that has a title attribute.|
+|input[required]|→ Style all <input> elements that include the required attribute|
+| [attribute="value"] | Selects elements that have a specific attribute with an exact value|
+|a[href="https://example.com"] |→ Styles <a> elements whose href matches "https://example.com"| 
 ### Examples of Common HTML Attributes
 
 |ATTRIBUTE |USED IN | PROGRESS|
