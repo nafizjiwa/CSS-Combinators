@@ -7,8 +7,7 @@ Selectors select the HTML element to style.<br>
                `properties: values` to style element 
                color: blue;
         }
- <br>
- 
+---
 ### Attributes are things like href, title, alt, etc., defined in HTML tags.
 
 | Attribute Selectors | What the selector styles | 
