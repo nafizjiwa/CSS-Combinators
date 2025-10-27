@@ -12,15 +12,12 @@ Selectors select the HTML element to style.<br>
 
         h1, .special { }
 
-## CSS Combinators '+', '>' '~' and 'space'.
-Are Selectors that combine selectors to show a relationship between.<br>
+### Combinators.
+`Are Selectors that combine css selectors to show a relationship between the selectors.`<br>
 
-***SYNTAX:*** 
+#### ***SYNTAX:***  FORMER_ELEMENT [Combinator inserted here] TARGET_ELEMENT { styles  }
 
-     FORMER_ELEMENT [Combinator inserted here] TARGET_ELEMENT { 
-             styles  }
-
-4 different combinator selectors in CSS:<br>
+### 4 Combinator Selectors:
 
     (space) or " " DESCENDENT selector   ------> Styles all children ( or descendants) element of an element.
             
@@ -38,7 +35,7 @@ Are Selectors that combine selectors to show a relationship between.<br>
                                              
             div ~ p {} - selects <p> sibling elements AFTER a <div> or selects all p 
 
-|Combinator with selectors |Example|
+|Examples Combinator with Selector | How They Work|
 |:----:|:----------|
 |h1 p:|selects any p inside an h1|
 |h1 ~ p: |selects all p siblings of h1, not just the first (have same parent)|
