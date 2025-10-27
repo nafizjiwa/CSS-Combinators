@@ -119,6 +119,65 @@ If the cube is a sibling of the container:<br>
 |}| 
 
 
+---
+
+## 🧾 CSS Selectors Cheat Sheet (2-Column Format)
+
+### 🔹 Basic Selectors
+
+| Selector     | Description         | Example                |
+|--------------|---------------------|------------------------|
+| `*`          | Universal selector  | `* { margin: 0; }`     |
+| `element`    | Type selector       | `p { color: blue; }`   |
+| `.class`     | Class selector      | `.btn { background: green; }` |
+| `#id`        | ID selector         | `#header { height: 80px; }` |
+
+| Selector     | Description         | Example                |
+|--------------|---------------------|------------------------|
+| `[type="text"]` | Exact match      | `input[type="text"]`   |
+| `[href^="https"]` | Starts with    | `a[href^="https"]`     |
+| `[href$=".pdf"]` | Ends with       | `a[href$=".pdf"]`      |
+| `[href*="docs"]` | Contains        | `a[href*="docs"]`      |
+
+---
+
+### 🔹 Combinators
+
+| Combinator   | Description         | Example                |
+|--------------|---------------------|------------------------|
+| `A B`        | Descendant          | `div p`                |
+| `A > B`      | Child               | `ul > li`              |
+| `A + B`      | Adjacent sibling    | `h2 + p`               |
+| `A ~ B`      | General sibling     | `h2 ~ p`               |
+
+| Tip          | Description         |
+|--------------|---------------------|
+| Use commas   | Group styles: `h1, h2, h3` |
+| Combine      | Precision: `.menu li:first-child:hover` |
+| Siblings     | Must share same parent |
+
+---
+
+### 🔹 Pseudo-classes
+
+| Selector         | Description     | Example                |
+|------------------|-----------------|------------------------|
+| `:hover`         | On hover        | `a:hover`              |
+| `:first-child`   | First child     | `li:first-child`       |
+| `:nth-child(n)`  | nth child       | `tr:nth-child(odd)`    |
+| `:not(selector)` | Excludes        | `div:not(.active)`     |
+
+| Selector         | Description     | Example                |
+|------------------|-----------------|------------------------|
+| `::before`       | Before content  | `p::before { content: "Note: "; }` |
+| `::after`        | After content   | `p::after { content: "."; }`       |
+| `::first-letter` | First letter    | `p::first-letter`      |
+| `::selection`    | Highlighted text| `::selection`          |
+
+---
+
+
+
 
 
 
