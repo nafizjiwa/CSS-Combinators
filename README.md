@@ -7,64 +7,10 @@ Selectors select the HTML element to style.<br>
                `properties: values` to style element 
                color: blue;
         }
----
-### Attributes are things like href, title, alt, etc., defined in HTML tags.
 
-| Attribute Selectors | What the selector styles | 
-| :--------------- | :-------------------| 
-| [attribute] | Selects elements that have a this specific attribute |
-|EX. a[title] |→ Styles any <a> tag that has a title attribute.|
-|EX. input[required]|→ Style all <input> elements that include the required attribute|
-| [attribute="value"] | Selects elements that have a specific attribute value|
-|EX. a[href="https://example.com"] |→ Styles <a> elements whose href matches "https://example.com"| 
-|EX. button[type="submit"]|→ Styles the <button> element with type="submit"|
-
----
-
-## 🧾 CSS Attribute Value Selectors Reference
-
-| **Selector**                  | **What It Targets**                                      | **Example HTML**                                |
-|------------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| `a[href="https://example.com"]` | Links with exact `href` value                         | `<a href="https://example.com">Visit</a>`       |
-| `input[type="checkbox"]`     | Checkbox inputs                                           | `<input type="checkbox">`                       |
-| `button[type="submit"]`      | Submit buttons                                            | `<button type="submit">Submit</button>`         |
-| `img[alt="logo"]`            | Images with `alt="logo"`                                 | `<img src="logo.png" alt="logo">`               |
-| `meta[name="description"]`   | Meta tags with a specific `name`                         | `<meta name="description" content="...">`       |
-| `link[rel="stylesheet"]`     | Stylesheet links                                          | `<link rel="stylesheet" href="style.css">`      |
-| `input[required="required"]` | Inputs explicitly marked as required                     | `<input type="text" required="required">`       |
-
----
-
-### Examples of Common HTML Attributes
-
-|ATTRIBUTE |USED IN | PROGRESS|
-|:-------- |:------------| :-------------------|
-|href|`<a>`|Specifies the link destination|
-|src|`<img>`|Specifies the image source|
-|alt|`<img>`|Provides alternative text|
-|title|	Any tag|Tooltip text on hover|
-|type|`<input>`|Defines input type (e.g., text, checkbox)|
-|required|`<input>`|Marks field as mandatory|
----
-| Pseudo-element Selector |let you style parts of an elements | 
-| :--------------- | :-------------------|
-| element::first-line | Lets you style first line of the element|
-|p::first-line | Targets the first line of visible text inside a block-level element like <p>|
-
-#### Example:
-
-| Simple Selectors | Example | Description |
-| :--------------- | :-----: | :---------------------------------------|
-| .class  | .intro | Selects *elements* with class = "intro" to style        |
-| element.class | p.intro | Selects *all p elements* with class="intro"    |
-| [attribute] | [target] | Selects elements with an attribute of target    |
-| :active | a:active | Selects the active a link                             |
-| ::after | p::after | Insert something after the content of each p element |
-| ::before | p::before | Insert something before the content of each p element: |
-##### Combine 2 or more selectors with a comma:
+##### Selectors can be combined with a comma:
 
         h1, .special { }
-
 
 ## CSS Combinators '+', '>' '~' and 'space'.
 Are Selectors that combine selectors to show a relationship between.<br>
@@ -217,6 +163,59 @@ If the cube is a sibling of the container:<br>
 | `::selection`    | Highlighted text| `::selection`          |
 
 ---
+### Attributes are things like href, title, alt, etc., defined in HTML tags.
+
+| Attribute Selectors | What the selector styles | 
+| :--------------- | :-------------------| 
+| [attribute] | Selects elements that have a this specific attribute |
+|EX. a[title] |→ Styles any <a> tag that has a title attribute.|
+|EX. input[required]|→ Style all <input> elements that include the required attribute|
+| [attribute="value"] | Selects elements that have a specific attribute value|
+|EX. a[href="https://example.com"] |→ Styles <a> elements whose href matches "https://example.com"| 
+|EX. button[type="submit"]|→ Styles the <button> element with type="submit"|
+
+---
+### Examples of Common HTML Attributes
+
+|ATTRIBUTE |USED IN | PROGRESS|
+|:-------- |:------------| :-------------------|
+|href|`<a>`|Specifies the link destination|
+|src|`<img>`|Specifies the image source|
+|alt|`<img>`|Provides alternative text|
+|title|	Any tag|Tooltip text on hover|
+|type|`<input>`|Defines input type (e.g., text, checkbox)|
+|required|`<input>`|Marks field as mandatory|
+---
+| Pseudo-element Selector |let you style parts of an elements | 
+| :--------------- | :-------------------|
+| element::first-line | Lets you style first line of the element|
+|p::first-line | Targets the first line of visible text inside a block-level element like <p>|
+---
+#### Example:
+
+| Simple Selectors | Example | Description |
+| :--------------- | :-----: | :---------------------------------------|
+| .class  | .intro | Selects *elements* with class = "intro" to style        |
+| element.class | p.intro | Selects *all p elements* with class="intro"    |
+| [attribute] | [target] | Selects elements with an attribute of target    |
+| :active | a:active | Selects the active a link                             |
+| ::after | p::after | Insert something after the content of each p element |
+| ::before | p::before | Insert something before the content of each p element: |
+---
+## 🧾 CSS Attribute Value Selectors Reference
+
+| **Selector**                  | **What It Targets**                                      | **Example HTML**                                |
+|------------------------------|-----------------------------------------------------------|--------------------------------------------------|
+| `a[href="https://example.com"]` | Links with exact `href` value                         | `<a href="https://example.com">Visit</a>`       |
+| `input[type="checkbox"]`     | Checkbox inputs                                           | `<input type="checkbox">`                       |
+| `button[type="submit"]`      | Submit buttons                                            | `<button type="submit">Submit</button>`         |
+| `img[alt="logo"]`            | Images with `alt="logo"`                                 | `<img src="logo.png" alt="logo">`               |
+| `meta[name="description"]`   | Meta tags with a specific `name`                         | `<meta name="description" content="...">`       |
+| `link[rel="stylesheet"]`     | Stylesheet links                                          | `<link rel="stylesheet" href="style.css">`      |
+| `input[required="required"]` | Inputs explicitly marked as required                     | `<input type="text" required="required">`       |
+
+---
+
 
 
 
