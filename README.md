@@ -20,14 +20,14 @@ Selectors select the HTML element to style.<br>
 |a[href="https://example.com"] |This targets only <a> elements whose href exactly matches "https://example.com"| 
 ### Examples of Common HTML Attributes
 
-|Attribute|Used In| Purpose|
+|ATTRIBUTE |USED IN | PROGRESS|
 |:-------- |:------------| :-------------------|
 |href|`<a>`|Specifies the link destination|
 |src|`<img>`|Specifies the image source|
-|alt|<img>|Provides alternative text|
+|alt|`<img>`|Provides alternative text|
 |title|	Any tag|Tooltip text on hover|
-|type|<input>|Defines input type (e.g., text, checkbox)|
-|required|<input>|Marks field as mandatory|
+|type|`<input>`|Defines input type (e.g., text, checkbox)|
+|required|`<input>`|Marks field as mandatory|
         ---
 | Pseudo-element Selector |let you style parts of an elements | 
 | :--------------- | :-------------------|
