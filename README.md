@@ -8,6 +8,7 @@ Selectors select the HTML element to style.<br>
                color: blue;
         }
  <br>
+ 
 ### Attributes are things like href, title, alt, etc., defined in HTML tags.
 
 | Attribute Selectors | What the selector styles | 
@@ -19,7 +20,7 @@ Selectors select the HTML element to style.<br>
 |a[href="https://example.com"] |This targets only <a> elements whose href exactly matches "https://example.com"| 
 ### Examples of Common HTML Attributes
 
-|Attribute|Used In Purpose|
+|Attribute|Used In| Purpose|
 |:-------- |:------------|
 |href|`<a>`|Specifies the link destination|
 |src|`<img>`|Specifies the image source|
