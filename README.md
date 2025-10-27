@@ -42,7 +42,8 @@ Selectors select the HTML element to style.<br>
 |h1 + p: |selects 1st p sibling of h1 (have same parent)|
 |h1 > p: |selects direct child p elements. Only if p is nested inside h1.|
 
-### EXAMPLEs
+
+### EXAMPLES
 
 Hover over one element and highlight the other element. A cube is in a container <div class="container"></div> <br>
 If the cube is directly inside the container:<br>
