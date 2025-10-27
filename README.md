@@ -1,10 +1,9 @@
 # CSS-Combinators '+', '>','~'and'space'
-What they are ?
 
 ##### First,<br> 
 Selectors select the HTML element to style.<br>
 
-        h1 {CSS SELECTOR} {
+        h1 {CSS SELECTOR} { --> selects h1 element 
                `properties: values` to style element 
                color: blue;
         }
@@ -15,7 +14,7 @@ Selectors select the HTML element to style.<br>
 | Attribute Selector | make a selection based on the presence of an attribute with a particular value | a[href="https://example.com"] | 
 | element::part of element | selects the first line of text inside the element p | p::first-line | 
 
-Example: <br>
+#### Example:
 
 | Simple Selectors | Example | Description |
 | :--------------- | :-----: | :---------------------------------------|
@@ -27,12 +26,10 @@ Example: <br>
 | ::before | p::before | Insert something before the content of each p element: |
 ##### Combine 2 or more selectors with a comma:
 
-        h1, .special {
-                  color: blue;
-                }
+        h1, .special { }
 
 
-# CSS Combinators '+', '>' '~' and 'space'.
+## CSS Combinators '+', '>' '~' and 'space'.
 Are Selectors that combine selectors to show a relationship between.<br>
 
 ***SYNTAX:*** 
@@ -42,32 +39,32 @@ Are Selectors that combine selectors to show a relationship between.<br>
 
 4 different combinator selectors in CSS:<br>
 
-    DESCENDENT selector (space)  ------> Styles all children ( or descendants) element of an element.
+    (space) or " " DESCENDENT selector   ------> Styles all children ( or descendants) element of an element.
             
             div p {} - selects all <p> elements inside a <div>. Descendent children elements of a Div.
                                
-    CHILD selector (>)      -----------> Style ONLY the DIRECT children of the former element
+    (>) CHILD selector       -----------> Style ONLY the DIRECT children of the former element
 
             div > p {} - selects <p> elements that are DIRECT children of a <div>.
                                
-    ADJACENT SIBLING selector (+)  ----> Styles direct siblings elements of former element.
+    (+) ADJACENT SIBLING selector   ----> Styles the immediate NEXT sibling element of former element.
                                         
-            div + p {} - selects the FIRST <p> element placed immediately after a <div>.
+            div + p {} - selects the 1st <p> element immediately after a <div>.
                                 
-     SIBLING selector (~)  ------> Styles  siblings ONLY after former element. (NOT siblings before)
+    (~) SIBLING selector   ------> Styles  ALL siblings AFTER former element.
                                              
-            div ~ p {} - selects <p> sibling elements AFTER a <div>
-                                               
+            div ~ p {} - selects <p> sibling elements AFTER a <div> or selects all p 
 
-#### Combinator selectors
-|Combinator with selectors|Example|What Combinator does| COMBINATOR USED|
-|:----:|:----------:| :----|:----:|
-| .class1 .class2|.name .name2|Selects name2 elements having a descendant element of name|SPACE or " "|
-| element > element| div > p| Selects all p elements where the parent is a div element|>   |
-| element + element | div + p2| Selects the 1st p element immediately after a closing div element|+  |
-| element1 ~ element2 | p ~ ul| Selects every ul element that is preceded by a p element|~ |
+|Combinator with selectors |Example|
+|:----:|:----------:|
+|h1 p: |selects any <p> inside an <h1>, which is rare and usually invalid HTML.|
+|h1 ~ p: |selects all <p> siblings of <h1>, not just the first.(have same parent)|
+|h1 + p: |selects 1st <p> sibling of <h1>.(have same parent)|
+|h1 > p: |selects direct child <p> elements, which only applies if <p> is nested inside <h1>.|
 
-An example hover over one element and highlight the other element. Here a cube is in a container div. <br>
+### EXAMPLEs
+
+Hover over one element and highlight the other element. A cube is in a container <div class="container"></div> <br>
 If the cube is directly inside the container:<br>
 
     #container:hover > #cube { background-color: yellow; }
@@ -80,10 +77,6 @@ If the cube is somewhere inside the container:<br>
 If the cube is a sibling of the container:<br>
 
     #container:hover ~ #cube { background-color: yellow; }
-
-### FINAL EXAMPLE
-----
-|CSS STYLE|
 
 .main.content (with no space) targets elements with both main and content class.<br>
 
@@ -100,7 +93,37 @@ If the cube is a sibling of the container:<br>
                         <p></p>
                         <p></p>
                         <p></p> --> target only this element
+---
+<div class="container">
+    <h2>Heading</h2>
+    <p>Paragraph directly after h2</p>
+    <p>Another paragraph inside container</p>
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+    </ul>
+  </div>
 
+
+ /* Descendant selector */
+    .container p {                  ---> Styles all <p> inside .container (descendant).
+      color: blue;
+    }
+
+    /* Child selector */
+    .container > h2 {               ---> Styles <h2> only if it's a direct child of .container
+      color: green;
+    }
+
+    /* Adjacent sibling selector */
+    h2 + p {                        ---> Styles the first <p> that comes immediately after <h2>
+      font-weight: bold;
+    }
+
+    /* General sibling selector */
+    h2 ~ ul {                     ---> Styles all <ul> that are siblings of <h2> and come after it.
+      background-color: #f0f0f0;
+    }
 ---
 
 ## 🧾 CSS Selectors Cheat Sheet 
