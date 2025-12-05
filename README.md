@@ -215,6 +215,15 @@ If the cube is a sibling of the container:<br>
 
 ---
 
+Table
+| Operator | Selector Example  | Meaning | Example Match | 
+| ^= | [class^='card'] | "card" | card-prioritize | 
+| $= | [class$='prioritize'] | "prioritize" | urgent-prioritize | 
+| *= | [class*='out'] | "out" | card-prioritize-out | 
+| = | [class='out'] | "out" | out | 
+
+---
+
 
 
 
