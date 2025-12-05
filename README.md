@@ -215,7 +215,8 @@ If the cube is a sibling of the container:<br>
 
 ---
 
-Table
+## 🧾 CSS Attribute Operator
+
 | Operator | Selector Example  | Meaning | Example Match | 
 |----|----|----|----|
 | ^= | [class^='card'] | "card" | card-prioritize | 
