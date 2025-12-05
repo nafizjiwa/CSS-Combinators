@@ -219,10 +219,14 @@ If the cube is a sibling of the container:<br>
 
 | Operator | Selector Example  | Meaning | Example Match | 
 |----|----|----|----|
-| ^= | [class^='card'] | "card" | card-prioritize | 
-| $= | [class$='prioritize'] | "prioritize" | urgent-prioritize | 
-| *= | [class*='out'] | "out" | card-prioritize-out | 
-| = | [class='out'] | "out" | out | 
+| ^= | [class^='card'] | Matches when the attribute starts with
+"card" | card-prioritize | 
+| $= | [class$='prioritize'] | Matches when the attribute ends with
+"prioritize" | urgent-prioritize | 
+| *= | [class*='out'] | Matches when the attribute contains 
+ "out" anywhere | card-prioritize-out | 
+| = | [class='out'] | Matches when the attribute is exactly equal to
+ "out" | out | 
 
 ---
 
